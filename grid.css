@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.col-1 {
+    width: 8.33333333%;
+}
+
+.col-1-5 {
+    width: 12.33333333%;
+}
+
+.col-2 {
+    width: 16.66666666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333333%;
+}
+
+.col-5 {
+    width: 41.666666666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.333333333%;
+}
+
+.col-8 {
+    width: 66.66666666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33333333%;
+}
+
+.col-11 {
+    width: 91.6666666%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    float: left;
+    padding: 15px;
+}
+
+.pl-1 {
+    padding-left: 2rem;
+}
+
+.plr-0 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.plr-1 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.plr-2 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.plr-3 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.p-1 {
+    padding: 0.4rem;
+}
+
+.p-2 {
+    padding: 1rem;
+}
+
+.p-3 {
+    padding: 1.5rem;
+}
+
+.p-4 {
+    padding: 2rem;
+}
+
+.p-5 {
+    padding: 2.5rem;
+}
+
+.p-6 {
+    padding: 3rem;
+}
+
+.p-7 {
+    padding: 4rem;
+}
+
+.p-10 {
+    padding: 8rem;
+}
+
+.pt-1 {
+    padding-top: 0.5rem;
+}
+
+.pt-2 {
+    padding-top: 1rem;
+}
+
+.pt-3 {
+    padding-top: 1.5rem;
+}
+
+.pt-4 {
+    padding-top: 2rem;
+}
+
+.pt-5 {
+    padding-top: 2.5rem;
+}
+
+.pt-6 {
+    padding-top: 3rem;
+}
+
+.pt-7 {
+    padding-top: 4rem;
+}
+
+.pb-1 {
+    padding-bottom: 0.5rem;
+}
+
+.pb-2 {
+    padding-bottom: 1rem;
+}
+
+.pb-3 {
+    padding-bottom: 1.5rem;
+}
+
+.pb-4 {
+    padding-bottom: 2rem;
+}
+
+.pb-5 {
+    padding-bottom: 2.5rem;
+}
+
+.pb-6 {
+    padding-bottom: 3rem;
+}
+
+.pb-7 {
+    padding-bottom: 4rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.l-1 {
+    line-height: 4rem;
+}
+
+.bt {
+    border-bottom: lightgray 0.5px solid;
+}
+
+@media only screen and (min-width:1200px) {
+    .container {
+        width: 100%;
+    }
+    #mainheader {
+        position: fixed;
+        z-index: 3;
+    }
+    #breakoutsec {
+        width: 85%;
+        margin: 0 auto;
+    }
+    #makechangesec {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .container {
+        width: 100%;
+    }
+    #breakoutsec {
+        width: 95%;
+        margin: 0 auto;
+    }
+    #makechangesec {
+        width: 95%;
+        margin: 0 auto;
+    }
+    #whatsnew {
+        width: 95%;
+    }
+    .navbar {
+        display: none;
+    }
+    .hidden-xl {
+        display: block;
+        float: right;
+        font-size: 1.8rem;
+        color: #1D1D1D;
+        line-height: 4.5rem;
+    }
+    #video-container video {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .hidden-xl {
+        display: block;
+        float: right;
+        font-size: 1.8rem;
+        color: #1D1D1D;
+        line-height: 4.5rem;
+    }
+    .container {
+        width: 100%;
+    }
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        float: none;
+        width: 100%;
+    }
+    .col-1,
+    .col-2,
+    .col-3 {
+        float: left;
+        width: 25%;
+    }
+    .navbar {
+        display: none;
+    }
+    #mainheader {
+        height: 4rem;
+    }
+    #video-container video {
+        display: none;
+    }
+    #video-title {
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    #subfooterul {
+        display: inline-block;
+        text-align: center!important;
+    }
+    #socialIcons {
+        text-align: center!important;
+    }
+    #buttonwhite {
+        display: inline-block;
+    }
+    #video-container2 video {
+        width: 95%;
+        height: 95%;
+    }
+    #buttontrans {
+        display: inline-block;
+    }
+    #breakoutsec {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #breakoutsec h2 {
+        font-size: 2.5rem;
+    }
+    #makechangesec {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #iconimg img {
+        width: 100%;
+    }
+    #graycontainer {
+        text-align: left;
+        padding: 0 1rem;
+    }
+    #graycontainer h2 {
+        font-size: 2rem;
+    }
+    #whatsnew h2 {
+        font-size: 2rem;
+    }
+    #video-title3 {
+        text-align: left;
+    }
+    #video-title3 h2 {
+        font-size: 2.2rem;
+    }
+    #tryslack h1 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .hidden-xl {
+        display: block;
+        float: right;
+        font-size: 1.8rem;
+        color: #1D1D1D;
+        line-height: 4.5rem;
+    }
+    .container {
+        width: 100%;
+    }
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        float: none;
+        width: 100%;
+    }
+    .col-1,
+    .col-2,
+    .col-3 {
+        float: left;
+        width: 50%;
+    }
+    .navbar {
+        display: none;
+    }
+    #mainheader {
+        height: 4rem;
+    }
+    #video-container video {
+        display: none;
+    }
+    #video-title {
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    #footericon {
+        float: left;
+        padding-left: none !important;
+        padding-right: none !important;
+    }
+    #subfooterul {
+        display: inline-block;
+        text-align: center!important;
+    }
+    #socialIcons {
+        text-align: center!important;
+    }
+    #buttonwhite {
+        display: inline-block;
+    }
+    #video-container2 video {
+        width: 95%;
+        height: 95%;
+    }
+    #buttontrans {
+        display: inline-block;
+    }
+    #breakoutsec {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #breakoutsec h2 {
+        font-size: 2.5rem;
+    }
+    #makechangesec {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #iconimg img {
+        width: 100%;
+    }
+    #graycontainer {
+        text-align: left;
+        padding: 0 1rem;
+    }
+    #graycontainer h2 {
+        font-size: 2rem;
+    }
+    #whatsnew h2 {
+        font-size: 2rem;
+    }
+    #video-title3 {
+        text-align: left;
+    }
+    #video-title3 h2 {
+        font-size: 2.2rem;
+    }
+    #tryslack h1 {
+        font-size: 2rem;
+    }
+    #letsgetstarted {
+        width: 98%;
+    }
+}
